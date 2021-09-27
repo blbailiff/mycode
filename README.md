@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+Want to learn how to version control projects with git.
+my repository
+=======
 # mycode (Python Basic)
 
 One Paragraph of your project description goes here. Describe what you're trying to do.
@@ -21,3 +25,4 @@ What things are needed to install the software and how to install them. For now,
 ## Authors
 
 * **BennyB** - *Initial work* - [YourWebsite](https://example.com/)
+>>>>>>> 4bd13dab6182ac3a06acc80ed3e87b8385a163e9

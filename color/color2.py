@@ -36,10 +36,7 @@ def main():
     print(crayons.white('white string', bold=True))
 
     # Print my name with 2 differnet colors
-    print(crayons.red("Benny", bold=True), (crayons.magenta("Bailiff", bold=True))
-
-    
+    print(crayons.red("Benny", bold=True), (crayons.magenta("Bailiff", bold=True)))
 
 # we must call our main function or our code will not run!
 main()
-

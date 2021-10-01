@@ -5,7 +5,7 @@
 import crayons
 
 # function to push commands
-def commandpush(devicecmd): # devicecmd==dict
+def commandh(devicecmd): # devicecmd==dict
 
     for ip in devicecmd.keys(): # looping through the dict
         print(f'{crayons.red("Handshaking")}. .. ... connecting with {ip}') # fstring with RED
@@ -23,7 +23,7 @@ def main():
     devicecmd = {"10.1.0.1":["interface eth1/2", "no shutdown"], "10.2.0.1":
     ["interface eth1/1", "shutdown"], "10.3.0.1":["interface eth1/5", "no shutdown"]}
 
-    print(f"Welcome to the {crayons.blue('Network')} Device Command Pusher") # welcome message with blue text
+    print(f"Hello {crayons.red('Network')} Device Command Pusher") # Hello message with blue text
 
     ## get data set
     print("\nData set found\n") # replace with function call that reads in data from file
@@ -33,4 +33,3 @@ def main():
 
 # call our main function
 main()
-
